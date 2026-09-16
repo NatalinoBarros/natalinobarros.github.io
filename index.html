@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio profissional de Natalino — Software Engineer, Full Stack Developer, arquitetura, automação, integrações e IA aplicada." />
+  <meta name="theme-color" content="#070b12" />
+
+  <meta property="og:title" content="Natalino | Software Engineer" />
+  <meta property="og:description" content="Arquitetura, integrações, automação, dados e IA aplicada a problemas reais." />
+  <meta property="og:type" content="website" />
+
+  <title>Natalino | Software Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">
+        <span class="brand-bracket">&lt;</span>NB<span class="brand-bracket">/&gt;</span>
+      </a>
+
+      <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav">
+        <a href="#about">sobre()</a>
+        <a href="#stack">stack[]</a>
+        <a href="#projects">projects()</a>
+        <a href="#experience">workflow()</a>
+        <a href="#contact">contact()</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            Software Engineer • Full Stack • Automation
+          </div>
+
+          <p class="code-label">const engineer = {</p>
+
+          <h1>
+            Natalino
+            <span class="gradient">Software Engineer</span>
+          </h1>
+
+          <p class="hero-text">
+            Desenvolvedor Full Stack Sênior com mais de 15 anos em tecnologia.
+            Construo integrações, automações, APIs, sistemas financeiros, pipelines,
+            serviços distribuídos e soluções com IA aplicada.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">
+              <span class="btn-icon">▶</span> Ver projetos
+            </a>
+            <a class="btn btn-secondary" href="#contact">
+              <span class="btn-icon">↗</span> Contato
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div>
+              <span class="meta-key">experience</span>
+              <strong>"15+ years"</strong>
+            </div>
+            <div>
+              <span class="meta-key">focus</span>
+              <strong>"systems + automation"</strong>
+            </div>
+            <div>
+              <span class="meta-key">mindset</span>
+              <strong>"build & improve"</strong>
+            </div>
+          </div>
+
+          <p class="code-label closing">};</p>
+        </div>
+
+        <div class="terminal reveal">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <span>~/portfolio/profile.py</span>
+            <span class="terminal-spacer"></span>
+          </div>
+
+          <div class="terminal-body">
+<pre><code><span class="c-muted"># profile.py</span>
+
+<span class="c-purple">class</span> <span class="c-cyan">SoftwareEngineer</span>:
+    <span class="c-purple">def</span> <span class="c-green">__init__</span>(self):
+        self.name = <span class="c-string">"Natalino"</span>
+        self.role = <span class="c-string">"Full Stack Senior"</span>
+        self.experience = <span class="c-number">15</span>
+        self.focus = [
+            <span class="c-string">"Architecture"</span>,
+            <span class="c-string">"Integrations"</span>,
+            <span class="c-string">"Automation"</span>,
+            <span class="c-string">"AI"</span>
+        ]
+
+    <span class="c-purple">def</span> <span class="c-green">solve</span>(self, problem):
+        architecture = self.<span class="c-blue">design</span>(problem)
+        solution = self.<span class="c-blue">build</span>(architecture)
+        <span class="c-purple">return</span> self.<span class="c-blue">improve</span>(solution)
+
+<span class="c-muted">$</span> python profile.py
+<span class="terminal-output">✓ ready to build reliable systems</span>
+<span class="cursor">█</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker">
+      <div class="ticker-track">
+        <span>PYTHON</span><i>•</i><span>PHP</span><i>•</i><span>JAVASCRIPT</span><i>•</i>
+        <span>C#</span><i>•</i><span>.NET</span><i>•</i><span>NODE.JS</span><i>•</i>
+        <span>FASTAPI</span><i>•</i><span>SQL SERVER</span><i>•</i><span>RABBITMQ</span><i>•</i>
+        <span>DOCKER</span><i>•</i><span>DATABRICKS</span><i>•</i><span>TENSORFLOW</span><i>•</i>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-index">01.</span>
+          <div>
+            <p class="code-kicker">// about_me</p>
+            <h2>Engenharia com visão de sistema.</h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="panel about-copy reveal">
+            <p class="lead">
+              Minha carreira foi construída resolvendo problemas reais em ambientes
+              corporativos: integrações, automações, processamento financeiro,
+              observabilidade, dados e evolução de sistemas legados.
+            </p>
+
+            <p>
+              Tenho perfil hands-on e gosto de atuar da arquitetura à produção.
+              Não penso apenas em “fazer funcionar”: considero segurança, tratamento
+              de falhas, observabilidade, manutenção, performance e impacto operacional.
+            </p>
+
+            <p>
+              Meu interesse atual está na convergência entre Engenharia de Software,
+              automação e Inteligência Artificial aplicada a processos de negócio.
+            </p>
+          </div>
+
+          <div class="about-console reveal">
+            <div class="console-line">
+              <span class="console-key">role</span>
+              <span class="console-value">Software Engineer</span>
+            </div>
+            <div class="console-line">
+              <span class="console-key">specialty</span>
+              <span class="console-value">Integration & Automation</span>
+            </div>
+            <div class="console-line">
+              <span class="console-key">approach</span>
+              <span class="console-value">Hands-on + Architecture</span>
+            </div>
+            <div class="console-line">
+              <span class="console-key">interests</span>
+              <span class="console-value">AI, Systems, Cloud, Data</span>
+            </div>
+            <div class="console-line">
+              <span class="console-key">status</span>
+              <span class="console-value success">Always learning_</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-index">02.</span>
+          <div>
+            <p class="code-kicker">// technologies</p>
+            <h2>Stack técnico</h2>
+          </div>
+        </div>
+
+        <div class="stack-grid">
+          <article class="stack-card reveal">
+            <div class="stack-head">
+              <span class="stack-icon">{ }</span>
+              <h3>Back-end</h3>
+            </div>
+            <div class="chips">
+              <span>Python</span><span>PHP</span><span>C#</span><span>.NET</span>
+              <span>Node.js</span><span>FastAPI</span><span>ASP.NET Core</span><span>Express</span>
+            </div>
+          </article>
+
+          <article class="stack-card reveal">
+            <div class="stack-head">
+              <span class="stack-icon">&lt;/&gt;</span>
+              <h3>Front-end</h3>
+            </div>
+            <div class="chips">
+              <span>JavaScript</span><span>HTML5</span><span>CSS3</span>
+              <span>Bootstrap</span><span>DataTables</span><span>Chart.js</span><span>Select2</span>
+            </div>
+          </article>
+
+          <article class="stack-card reveal">
+            <div class="stack-head">
+              <span class="stack-icon">DB</span>
+              <h3>Dados</h3>
+            </div>
+            <div class="chips">
+              <span>SQL Server</span><span>PostgreSQL</span><span>MySQL</span>
+              <span>Databricks</span><span>SQL Warehouse</span>
+            </div>
+          </article>
+
+          <article class="stack-card reveal">
+            <div class="stack-head">
+              <span class="stack-icon">MQ</span>
+              <h3>Infra & Mensageria</h3>
+            </div>
+            <div class="chips">
+              <span>Docker</span><span>Kubernetes</span><span>RabbitMQ</span>
+              <span>AWS</span><span>S3</span><span>Windows Services</span>
+            </div>
+          </article>
+
+          <article class="stack-card reveal">
+            <div class="stack-head">
+              <span class="stack-icon">API</span>
+              <h3>Integrações & Segurança</h3>
+            </div>
+            <div class="chips">
+              <span>REST APIs</span><span>OAuth 2.0</span><span>mTLS</span>
+              <span>JWT</span><span>Webhooks</span><span>CNAB</span>
+            </div>
+          </article>
+
+          <article class="stack-card reveal">
+            <div class="stack-head">
+              <span class="stack-icon">AI</span>
+              <h3>Automação & IA</h3>
+            </div>
+            <div class="chips">
+              <span>Playwright</span><span>Selenium</span><span>TensorFlow</span>
+              <span>OCR</span><span>AWS Textract</span><span>Python Automation</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-index">03.</span>
+          <div>
+            <p class="code-kicker">// featured_projects</p>
+            <h2>Projetos que representam meu trabalho</h2>
+            <p class="section-description">
+              Cases descritos de forma anonimizada, preservando dados e contextos proprietários.
+            </p>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-code">PROJECT_01</div>
+            <div class="project-header">
+              <div>
+                <span class="project-type">OBSERVABILITY / AUTOMATION</span>
+                <h3>Sentinel</h3>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+            <p>
+              Plataforma centralizada para monitoramento de automações, jobs e subrotinas.
+              Detecta falhas, atraso e ausência de execução esperada, com alertas externos,
+              regras por faixa de horário e metadados por rotina.
+            </p>
+            <div class="architecture">
+              <span>Routine</span><b>→</b><span>Monitor</span><b>→</b><span>Rules</span><b>→</b><span>Alert</span>
+            </div>
+            <div class="chips">
+              <span>Python</span><span>FastAPI</span><span>SQL Server</span>
+              <span>Telegram</span><span>Monitoring</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-code">PROJECT_02</div>
+            <div class="project-header">
+              <div>
+                <span class="project-type">DISTRIBUTED SYSTEMS</span>
+                <h3>Core Scheduler</h3>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+            <p>
+              Arquitetura para agendamento de tarefas HTTP, execução assíncrona,
+              retries, DLQ, outbox e centralização de notificações.
+            </p>
+            <div class="chips">
+              <span>FastAPI</span><span>RabbitMQ</span><span>SQL Server</span><span>Workers</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-code">PROJECT_03</div>
+            <div class="project-header">
+              <div>
+                <span class="project-type">FINTECH / APIs</span>
+                <h3>Integrações Bancárias</h3>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+            <p>
+              APIs para registro, consulta, conciliação e liquidação financeira,
+              com autenticação forte, certificados e integração a processos legados.
+            </p>
+            <div class="chips">
+              <span>C#</span><span>.NET</span><span>REST</span><span>OAuth</span><span>mTLS</span><span>CNAB</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-code">PROJECT_04</div>
+            <div class="project-header">
+              <div>
+                <span class="project-type">AI / VALIDATION</span>
+                <h3>Validador Inteligente de CNAB</h3>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+            <p>
+              Projeto experimental combinando validações determinísticas e Machine Learning
+              para identificar inconsistências em arquivos antes da homologação.
+            </p>
+            <div class="chips">
+              <span>Python</span><span>TensorFlow</span><span>ML</span><span>Data Validation</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-code">PROJECT_05</div>
+            <div class="project-header">
+              <div>
+                <span class="project-type">DATA / ANALYTICS</span>
+                <h3>Modernização de Relatórios</h3>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+            <p>
+              Migração de relatórios corporativos para Databricks e SQL Warehouse,
+              com regras financeiras, performance, filtros e integração ao portal interno.
+            </p>
+            <div class="chips">
+              <span>Databricks</span><span>SQL</span><span>ODBC</span><span>Analytics</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-code">PROJECT_06</div>
+            <div class="project-header">
+              <div>
+                <span class="project-type">WORKFLOW / AUTOMATION</span>
+                <h3>Gestão de Documentos</h3>
+              </div>
+              <span class="project-arrow">↗</span>
+            </div>
+            <p>
+              Fluxos para cadastro, anexação, agendamento e envio automatizado de documentos,
+              com histórico, status e rastreabilidade.
+            </p>
+            <div class="chips">
+              <span>PHP</span><span>JavaScript</span><span>SQL Server</span><span>Automation</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-index">04.</span>
+          <div>
+            <p class="code-kicker">// engineering_mindset</p>
+            <h2>Como eu resolvo problemas</h2>
+          </div>
+        </div>
+
+        <div class="workflow">
+          <article class="workflow-step reveal">
+            <span class="step-number">01</span>
+            <div>
+              <span class="step-command">$ analyze --problem</span>
+              <h3>Entender antes de implementar</h3>
+              <p>Mapeio fluxo, dependências, dados, riscos e impacto operacional.</p>
+            </div>
+          </article>
+
+          <article class="workflow-step reveal">
+            <span class="step-number">02</span>
+            <div>
+              <span class="step-command">$ design --architecture</span>
+              <h3>Arquitetura pragmática</h3>
+              <p>Escolho a solução pensando em segurança, manutenção, falhas e escala.</p>
+            </div>
+          </article>
+
+          <article class="workflow-step reveal">
+            <span class="step-number">03</span>
+            <div>
+              <span class="step-command">$ build --production</span>
+              <h3>Entrega hands-on</h3>
+              <p>Atuo no código, banco, integrações, automações, telas e testes.</p>
+            </div>
+          </article>
+
+          <article class="workflow-step reveal">
+            <span class="step-number">04</span>
+            <div>
+              <span class="step-command">$ monitor --improve</span>
+              <h3>Melhoria contínua</h3>
+              <p>Observo o comportamento real e removo fragilidade, retrabalho e tarefas manuais.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-index">05.</span>
+          <div>
+            <p class="code-kicker">// traits</p>
+            <h2>Características profissionais</h2>
+          </div>
+        </div>
+
+        <div class="traits-grid">
+          <div class="trait reveal">
+            <span>01</span>
+            <strong>Analítico</strong>
+            <p>Busco causa, contexto e impacto antes de decidir.</p>
+          </div>
+          <div class="trait reveal">
+            <span>02</span>
+            <strong>Hands-on</strong>
+            <p>Consigo sair do desenho e chegar ao código em produção.</p>
+          </div>
+          <div class="trait reveal">
+            <span>03</span>
+            <strong>Visão sistêmica</strong>
+            <p>Conecto software, infraestrutura, dados e operação.</p>
+          </div>
+          <div class="trait reveal">
+            <span>04</span>
+            <strong>Curioso</strong>
+            <p>Aprendo novas tecnologias sem perder o foco no problema.</p>
+          </div>
+          <div class="trait reveal">
+            <span>05</span>
+            <strong>Orientado a automação</strong>
+            <p>Se um processo é repetitivo, penso em como eliminá-lo.</p>
+          </div>
+          <div class="trait reveal">
+            <span>06</span>
+            <strong>Produção em primeiro plano</strong>
+            <p>Valorizo observabilidade, confiabilidade e rastreabilidade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div class="contact-code">&lt;contact&gt;</div>
+
+          <div>
+            <p class="code-kicker">// let's_build</p>
+            <h2>Vamos conversar sobre tecnologia?</h2>
+            <p class="contact-copy">
+              Engenharia de Software, arquitetura, integrações, automação,
+              IA aplicada, dados ou novos produtos.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" id="linkedinLink" href="#" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a class="btn btn-secondary" id="githubLink" href="#" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a class="btn btn-secondary" id="emailLink" href="#">E-mail ↗</a>
+          </div>
+
+          <div class="contact-code end">&lt;/contact&gt;</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <span>© <span id="year"></span> Natalino</span>
+      <span class="footer-code">built_with: ["code", "coffee", "curiosity"];</span>
+      <a href="#home">return top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
