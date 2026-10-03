@@ -1,8 +1,8 @@
 const PROFILE = {
   // Troque pelos seus links reais antes de publicar.
-  linkedin: "https://www.linkedin.com/in/SEU-USUARIO",
-  github: "https://github.com/SEU-USUARIO",
-  email: "mailto:SEU-EMAIL"
+  linkedin: "https://www.linkedin.com/in/natalino-amaral-920882230/",
+  github: "https://github.com/NatalinoBarros/",
+  email: "mailto:natalino.barros@icloud.com"
 };
 
 document.getElementById("linkedinLink").href = PROFILE.linkedin;
